@@ -1,0 +1,82 @@
+@import "nav.css";
+@import "footer.css";
+@import "index layout.css";
+
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(80px, auto);
+    grid-template-areas: 
+    "hd hd"
+    "main post"
+    "feat feat"
+    "ft ft ";
+    z-index: -1;
+    }
+
+.header {
+    grid-area: hd;
+    background-color:#134;
+    z-index: 2;
+    width: 100%;
+    }
+    
+    
+.content {
+    grid-area: main;
+    width: 620px;
+    height: 450px;
+    background-image: url("../img/Success.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #fffaf0; 
+    z-index: 1;
+    }
+
+.post {
+    grid-area: post;
+    width: 620px;
+    height: 450px;
+    background-image: url("../img/tug-of-war.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fffaf0;
+    z-index: 1;
+    }
+
+.feater {
+    grid-area: feat;
+    width: 100%;
+    margin-top: 30px;
+     }
+
+/* for medium Screem */
+@media(min-width:900px){
+.container{
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(80px, auto);
+    grid-template-areas: 
+    "hd hd"
+    "main post"
+    "feat feat"
+    "ft ft ";
+    }
+    }
+
+    
+
+
+
+    

@@ -1,0 +1,15 @@
+/*footer*/
+.footer {
+    grid-area: ft;
+    background-color:#134;
+    height: 80px;
+    text-align: center;
+    }
+
+/*Styling Social icons in footer*/
+.fab {
+    font-size: 20px;
+    width: 50px;
+    margin-top: 20px;
+    color: #fffaf0;
+  }

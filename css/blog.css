@@ -1,0 +1,42 @@
+@import "nav.css";
+@import "footer.css";
+@import "post layout.css";
+
+.container {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 60% 10%;
+    grid-auto-rows: minmax(80px, auto);
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd"
+    "main main main sd sd sd sd"
+    "ft ft ft ft ft ft ft";
+    }
+
+.header {
+
+    grid-area: hd;
+    background-color: #134;
+    height: 80px;
+    }
+
+.content {
+    grid-area: main;
+    }
+
+.aside {
+    grid-area: sd;
+    background-color: rgba(137,204,234, 0.3);
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 600px;
+}
+
+.footer {
+    grid-area: ft;
+    background-color: #134;
+    height: 80px;
+}
+
+
+    
