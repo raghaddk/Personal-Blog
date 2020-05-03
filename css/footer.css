@@ -5,11 +5,18 @@
     height: 80px;
     text-align: center;
     }
+/*text in footer*/
+footer{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    }
 
 /*Styling Social icons in footer*/
 .fab {
-    font-size: 20px;
-    width: 50px;
-    margin-top: 20px;
-    color: #fffaf0;
+    font-size: 15px;
+    width: 30px;
+    color: #fff;
+    margin-top: 15px;
   }

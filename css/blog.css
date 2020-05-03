@@ -13,6 +13,81 @@
     "ft ft ft ft ft ft ft";
     }
 
+/* for small Screem */
+@media(max-width:600px){
+    .container {
+        display: grid;
+        margin: auto;
+        grid-template-columns: 50% 20%;
+        grid-auto-rows: minmax(80px, auto);
+        grid-template-areas: 
+        "hd hd hd hd "
+        "main sd sd sd "
+        "ft ft ft ft";
+        }
+    h2 {
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 0px;
+        }
+
+    h3 {
+  
+        font-size: 15px;
+        margin-top: 20px; 
+        margin-left: 10px;    
+        }
+
+    #underline {
+        margin-left: 20px;
+        font-size: 15px;
+            
+        }
+
+    p {
+        font-size: 10px;
+        margin-left: 10px;
+        padding-right: 10px;
+        }
+
+    .book {
+        width: 250px;
+        height: 200px;
+        margin-left: 100px;
+        }
+
+    #one {
+        width: 150px ;
+        height: 150px;
+        margin-top: 10px;
+        margin-left: 20px;
+        }
+
+    .footer , .header{
+        width: 50%;
+        }
+
+    .aside{
+        width: 25%;
+        }
+
+    #navbar {
+        margin-left: 120px;
+        margin-top: 30px;
+        }
+
+    li>a {
+        line-height: 10px;
+        text-align: left;
+        margin-left: 0;
+        }
+    .title {
+        margin-left: 150px;
+        margin-bottom: 10px;
+        margin-top: 0;
+        }
+    }
+
 .header {
 
     grid-area: hd;
